@@ -1,0 +1,106 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html {
+  font-size: 16px;
+}
+
+/* custom date picker that works with black background */
+input[type="date"] { 
+  background: transparent;
+  color: white;
+  border: none;
+
+  color-scheme: dark;
+}
+
+.button {
+  background-color: red;
+  border-radius: 20px;
+  text-align: center;
+  opacity: 0.8;
+  transition: 0.3s;
+  font-size: 2rem;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  text-decoration: none;
+  font-size: 1rem;
+
+  /* no scroll */
+  /* height: 100%;
+  overflow: hidden; */
+}
+
+h3{
+  text-decoration: none;
+  font-weight:lighter;
+}
+
+img{
+  display: none;
+}
+
+iframe {
+  display: none;
+}
+
+h2{
+
+}
+
+p{
+  width: 50vw;
+}
+
+.showImage {
+  display: block;
+  height: auto;
+  width: 35vw;
+}
+
+.showIframe {
+  display: block;
+  height: auto;
+  width: 50vw;
+}
+
+.showButton {
+  display: block;
+
+  background-color: red;
+  border-radius: 20px;
+  text-align: center;
+  opacity: 0.8;
+  transition: 0.3s;
+  font-size: 2rem;
+}
+
+.hideDisplay {
+  display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
